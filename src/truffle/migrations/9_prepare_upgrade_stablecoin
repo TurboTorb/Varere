@@ -1,0 +1,11 @@
+// migrations/4_prepare_upgrade_boxv2.js
+const StablecoinProxy = artifacts.require('StablecoinProxy');
+const Stablecoin = artifacts.require('Stablecoin');
+ 
+const { prepareUpgrade } = require('@openzeppelin/truffle-upgrades');
+ 
+module.exports = async function (deployer) {
+  const stablecoinProxy = await StablecoinProxy.deployed();
+  // const instance = await prepareUpgrade(stablecoinProxy.address, Stablecoin, { deployer });
+  // console.log("Upgraded ", instance.address);
+};

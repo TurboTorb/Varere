@@ -1,0 +1,23 @@
+{
+  "name": "truffle",
+  "version": "0.0.1",
+  "scripts": {},
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "chai": "^4.3.6",
+    "truffle": "^5.5.23"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "@metamask/onboarding": "^1.0.1",
+    "@openzeppelin/contracts": "^4.6.0",
+    "@openzeppelin/contracts-upgradeable": "^4.6.0",
+    "@openzeppelin/truffle-upgrades": "^1.8.0",
+    "make": "^0.0.0",
+    "qrcode-generator": "^1.4.4",
+    "svelte-web3": "^3.4.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": []
+}

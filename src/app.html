@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%svelte.assets%/favicon.png" />
+		<meta name="description" content="Addavox" />
+		<meta name="author" content="Addavox" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Set Up Svelte-Web3 -->
+		<script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+		<!--  -->
+
+		<!-- ================== BEGIN core-js ================ -->
+		<script src="/assets/js/vendor.min.js"></script>
+		<script src="/assets/js/app.min.js" defer></script>
+		<!-- ================== END core-js ================== -->
+	
+		<!-- ================== BEGIN core-css ================ -->
+		<link href="/assets/css/vendor.min.css" rel="stylesheet" />
+		<link href="/assets/css/app.min.css" rel="stylesheet" />
+		<!-- ================== END core-css ================== -->
+
+		<!-- Dashboard -->
+		<script src="/assets/plugins/jvectormap-next/jquery-jvectormap.min.js"></script>
+		<script src="/assets/plugins/jvectormap-content/world-mill.js"></script>
+		<script src="/assets/plugins/apexcharts/dist/apexcharts.min.js"></script>
+		<link href="/assets/plugins/jvectormap-next/jquery-jvectormap.css" rel="stylesheet" />
+
+		<!-- Analytics -->
+		<script src="/assets/plugins/chart.js/dist/chart.min.js"></script>
+		<script src="/assets/plugins/masonry-layout/dist/masonry.pkgd.min.js"></script>
+		<script src="/assets/plugins/moment/min/moment.min.js"></script>
+		<script src="/assets/plugins/bootstrap-daterangepicker/daterangepicker.js"></script>
+		<link href="/assets/plugins/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet" />
+
+		<!-- Profile -->
+		<script src="/assets/plugins/lity/dist/lity.min.js"></script>
+		<link href="/assets/plugins/lity/dist/lity.min.css" rel="stylesheet" />
+		<link href="/assets/plugins/photoswipe/dist/photoswipe.css" rel="stylesheet" />
+		<link href="/assets/plugins/photoswipe/dist/default-skin/default-skin.css" rel="stylesheet" />
+
+		<!-- Projects -->
+		<script src="/assets/plugins/jquery-migrate/dist/jquery-migrate.min.js"></script>
+        <script src="/assets/plugins/tag-it/js/tag-it.min.js"></script>
+		<link href="/assets/plugins/tag-it/css/jquery.tagit.css" rel="stylesheet" />
+
+		<!-- Scribe -->
+		<link href="/assets/css/cropper.css" rel="stylesheet" />
+
+		%svelte.head%
+	</head>
+
+	<style>
+		body {
+			font-family: sans-serif !important;
+		}
+		.clean {
+			padding-top: 0px;
+		}
+	</style>
+	<body>
+		<div>%svelte.body%</div>
+	</body>
+</html>
