@@ -1,3 +1,5 @@
+OUTDATED - MOVED TO VARERE-NEBULA ORGANIZATION
+
 Personal Project - Decentralized E-Commerce Platform
 
 Patent Pending on use of Smart contracts as escrow for all parties involved in the production and sale of a product.
